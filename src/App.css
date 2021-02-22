@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+@import url("fonts/stylesheet.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+  font-family: 'Avenir Next Cyr', sans-serif;
+  color: #002137;
+  background: #fafafc;
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0  auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  font-size: 34px;
+  line-height: 1.12;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1160px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width: 768px) {
+  .title {
+    text-align: center;
+    font-size: 24px;
   }
 }
