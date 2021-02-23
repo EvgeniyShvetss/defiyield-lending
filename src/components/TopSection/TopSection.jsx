@@ -13,7 +13,7 @@ const TopSection = () => {
         <div className="top-section__form">
           <input className='top-section__input' type="text" placeholder='Enter ENS domain, a valid ETH, or BTC address'/>
           <span className='top-section__delimiter'>or</span>
-          <a className='top-section__link' href="https://dashdev.defiyield.info/">Сonnect wallet</a>
+          <a className='top-section__link' href="https://dashdev.defiyield.info/#connect-wallet">Сonnect wallet</a>
           <span className='top-section__delimiter'>or</span>
           <a className='top-section__link' href="https://dashdev.defiyield.info/">Explore mode</a>
         </div>

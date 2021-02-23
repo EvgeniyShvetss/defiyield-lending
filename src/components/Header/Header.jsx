@@ -28,7 +28,7 @@ const Header = () => {
           <a href='#feautures' className="header__list-item" onClick={handleToggle}>Feautures</a>
           <a href='#intergrations' className="header__list-item" onClick={handleToggle}>Intergrations</a>
           <a href='#community' className="header__list-item" onClick={handleToggle}>Community</a>
-          <a href="https://dashdev.defiyield.info/" className="header__list-link" onClick={handleToggle}>Connect Wallet</a>
+          <a href="https://dashdev.defiyield.info/#connect-wallet" className="header__list-link" onClick={handleToggle}>Connect Wallet</a>
         </div>
       </div>
     </div>

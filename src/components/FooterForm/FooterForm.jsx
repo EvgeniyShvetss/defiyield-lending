@@ -23,7 +23,7 @@ const FooterForm = () => {
         </div>
         <input className='footer__form-input' type="text" placeholder='Enter ENS domain, a valid ETH, or BTC address'/>
         <span className='footer__form-delimiter'>or</span>
-        <a className='footer__form-button white' href="https://dashdev.defiyield.info/">Connect Wallet</a>
+        <a className='footer__form-button white' href="https://dashdev.defiyield.info/#connect-wallet">Connect Wallet</a>
         <span className='footer__form-delimiter'>or</span>
         <a className='footer__form-button dark' href="https://dashdev.defiyield.info/">Explore more</a>
       </div>

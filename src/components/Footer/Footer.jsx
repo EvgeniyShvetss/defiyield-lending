@@ -20,9 +20,9 @@ const Footer = () => {
           </div>
         <div className="footer__link-block">
           <div className="footer__link-block-title">Platform</div>
-          <a href="https://dashdev.defiyield.info/" className="footer__link">Connect wallet</a>
+          <a href="https://dashdev.defiyield.info/#connect-wallet" className="footer__link">Connect wallet</a>
           {/*<a href="/" className="footer__link">Guest mode</a>*/}
-          <a href="/" className="footer__link">Ingegrations</a>
+          <a href="#intergrations" className="footer__link">Integrations</a>
         </div>
         <div className="footer__link-block">
           <div className="footer__link-block-title">Resources</div>
